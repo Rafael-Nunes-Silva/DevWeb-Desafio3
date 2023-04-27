@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header{
+    display: flex;
+    padding: 20px 10%;
+}
+header img{
+    display: inline-block;
+}
+header span{
+    display: inline-block;
+
+    align-self: center;
+
+    margin-left: auto;
+}
+
+#barra{
+    padding: 5px;
+    background-color: rgb(56, 63, 93);
+}
+
+#capa{
+    background-color: rgb(230, 230, 230);
+}
+#capa img{
+    width: 80%;
+
+    margin: 0px 10%;
+}
+
+.corpo{
+    padding: 0px 10%;
+}
+.corpo div{
+    text-align: center;
+
+    margin-top: 50px;
+}
+.corpo input{
+    resize: both;
+}
+
+footer{
+    text-align: center;
+}

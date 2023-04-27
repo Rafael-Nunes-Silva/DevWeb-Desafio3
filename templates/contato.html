@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+    <div class="corpo">
+        <h1>Entre em contato</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <hr>
+        <form method="POST" action="{{ url_for('renderContato') }}">
+            <label for="email">Seu e-mail</label><br>
+            <input name="email" type="email"><br>
+            <label for="assunto">Assunto</label><br>
+            <input name="assunto" type="text"><br>
+            <label for="descricao">Descrição</label><br>
+            <textarea name="descricao" type="text"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+{% endblock %}
